@@ -38,5 +38,6 @@
   "dependencies": {
     "@types/node": "^15.12.5",
     "samp-node-lib": "^1.0.5"
-  }
+  },
+  "type": "module"
 }
