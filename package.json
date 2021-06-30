@@ -1,0 +1,42 @@
+{
+  "name": "samp-node-boilerplate",
+  "version": "1.0.0",
+  "description": "A samp node server boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "build:resource": "rollup -c resources/sample/rollup.config.ts",
+    "build:sampctl": "sampctl p build",
+    "run:server": "sampctl p run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alextwothousand/samp-node-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alextwothousand/samp-node-boilerplate/issues"
+  },
+  "homepage": "https://github.com/alextwothousand/samp-node-boilerplate#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^19.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@types/rollup-plugin-auto-external": "^2.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.28.1",
+    "@typescript-eslint/parser": "^4.28.1",
+    "chalk": "^4.1.1",
+    "eslint": "^7.29.0",
+    "rollup": "^2.52.4",
+    "rollup-plugin-auto-external": "^2.0.0",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.3.4"
+  },
+  "dependencies": {
+    "@types/node": "^15.12.5",
+    "samp-node-lib": "^1.0.5"
+  }
+}

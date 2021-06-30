@@ -1,0 +1,17 @@
+{
+	"user": "alextwothousand",
+	"repo": "samp-node-boilerplate",
+	"entry": "gamemodes/bare.pwn",
+	"output": "gamemodes/bare.amx",
+	"dependencies": [
+		"sampctl/samp-stdlib",
+		"AmyrAhmady/samp-node:1.1.0"
+	],
+	"local": true,
+	"runtime": {
+		"version": "0.3.7",
+		"mode": "server",
+		"rcon_password": "password",
+		"port": 7777
+	}
+}

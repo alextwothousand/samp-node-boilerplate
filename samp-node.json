@@ -1,0 +1,8 @@
+{
+	"log_level": 4,
+	"enable_resources": true,
+	"resources_path": "resources",
+	"resources": [
+		"sample"
+	]
+}
